@@ -57,7 +57,7 @@ const GitHubAccount = () => {
 
       {/* showing profile info if exists*/}
       {
-        isLoading?
+        isLoading && profileInfo?
         (<Loading/>)
         :
         (
